@@ -1,15 +1,15 @@
 module.exports = {
   statistics: [{
-    counter: 500,
+    counter: 100,
     caption: 'Attendees'
   }, {
-    counter: 2,
-    caption: 'Days'
+    counter: 1,
+    caption: 'Day'
   }, {
-    counter: 40,
+    counter: 13,
     caption: 'Sessions'
   }, {
-    counter: 3,
+    counter: 2,
     caption: 'Parallel tracks'
   }],
   callToAction: {
@@ -31,23 +31,12 @@ module.exports = {
   ticketsBlock: {
     title: 'Tickets',
     tickets: [{
-      name: 'Student',
-      price: 400,
-      currency: 'UAH',
-      info: '*Before October 23 or 100 tickets.<br/>Requires valid student ID'
-    }, {
-      name: 'Early Bird',
-      price: 600,
-      currency: 'UAH',
-      info: '*Before September 27 or 150 tickets',
-      soldOut: true
-    }, {
-      name: 'Lazy Bird',
-      price: 800,
-      currency: 'UAH',
-      info: '*Before October 23'
+      name: 'General',
+      price: 45,
+      currency: 'USD',
+      info: ''
     }],
-    details: 'Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.'
+    details: 'Tickets grant access to all conference sessions, coffee breaks, and lunch. Accommodation is NOT included in the ticket price.'
   },
   socialFeed: {
     source: '/data/tweets.json'

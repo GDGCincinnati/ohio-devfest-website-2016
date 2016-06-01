@@ -1,58 +1,49 @@
 module.exports = {
-  title: 'GDG DevFest Season 2015',
-  description: 'The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts',
+  title: 'Ohio DevFest 2016',
+  description: 'The biggest Google tech conference in Ohio carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts',
   keywords: 'event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, cloud',
   charset: 'utf-8',
   lang: 'en',
   // Add to homescreen for Chrome on Android
-  applicationName: 'GDG DevFest Season 2015',
+  applicationName: 'Ohio DevFest 2016',
   // Add to homescreen for Safari on iOS
-  appleMobileWebAppTitle: 'GDG DevFest Season 2015',
+  appleMobileWebAppTitle: 'Ohio DevFest 2016',
 
   // Event details
-  dates: 'October 23-24, 2015',
+  dates: 'November 19, 2016',
   location: {
-    title: 'Pivdennyi Expo Center',
-    description: 'Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event',
-    short: 'Lviv, Ukraine',
-    address: 'Shchyretska St, 36',
-    link: 'https://www.facebook.com/expopivdennij',
+    title: 'Tangeman University Center',
+    description: 'Tangeman University Center (TUC) is the campus student center located in the heart of MainStreet on the University of Cincinnati campus.',
+    short: 'Cincinnati, Ohio 45221',
+    address: '2766 UC MainStreet',
+    link: 'https://www.uc.edu/eventservices/venues/tangeman.html',
     pointer: {
-      latitude: 49.809841,
-      longitude: 23.972805,
-      zoom: 15
+      latitude: 39.131688,
+      longitude: -84.517450,
+      zoom: 17
     },
     mapCenter: {
-      latitude: 49.809841,
-      longitude: 23.982805
+      latitude: 39.131688,
+      longitude: -84.517450,
     },
-    images: ['/images/backgrounds/location_1.jpg', '/images/backgrounds/location_2.jpg', '/images/backgrounds/location_3.jpg']
+    images: ['https://www.uc.edu/eventservices/venues/_jcr_content/MainTop/image/image.img.png/1441138938823.png']
   },
 
   // Contacts
   social: {
     twitter: {
-      nickname: 'GDGLviv',
-      url: 'https://twitter.com/gdglviv'
+      nickname: 'GDGCincinnati',  // FIXME
+      url: 'https://twitter.com/gdgcincinnati'  // FIXME
     },
     gplus: {
-      nickname: '102444623953913144164',
-      url: 'https://plus.google.com/102444623953913144164'
-    },
-    facebook: {
-      nickname: 'GDGLviv',
-      url: 'https://www.facebook.com/GDGLviv'
-    },
-    // Linkedin company
-    linkedin: {
-      nickname: 'google-developers-group-lviv',
-      url: 'https://www.linkedin.com/company/google-developers-group-lviv'
+      nickname: '117137315626535078562',  // FIXME
+      url: 'https://plus.google.com/117137315626535078562'  // FIXME
     }
   },
-  hashtag: 'dfua',
-  email: 'devfest@gdg.com',
+  hashtag: 'ohiodevfest',
+  email: 'contact@ohiodevfest.com',
   organizer: {
-    name: 'GDG Lviv',
-    blog: 'http://lviv.gdg.org.ua'
+    name: 'GDG Cincinnati, GDG Columbus',
+    blog: 'https://plus.google.com/117137315626535078562'
   }
 };

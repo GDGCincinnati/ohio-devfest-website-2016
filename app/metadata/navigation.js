@@ -7,12 +7,7 @@ module.exports = {
       backgroundColor: '#00BCD4',
       backgroundImage: '/images/backgrounds/home.png',
       fontColor: '#FFFFFF',
-      tabBarColor: '#FFFFFF',
-      video: {
-        title: 'GDG DevFest Ukraine 2015',
-        youtubeId: 'DfMnJAzOFng',
-        text: 'See how it was in 2015'
-      }
+      tabBarColor: '#FFFFFF'
     }
   }, {
     route: 'blog',
