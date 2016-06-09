@@ -1,56 +1,15 @@
 [{
-    "title": "Template creator",
-    "logos": [{
-        "name": "GDG Lviv",
-        "url": "https://plus.google.com/102444623953913144164",
-        "logoUrl": "../images/partners/gdg-lviv.svg",
-        "width": 170
-    }]
+  "title": "Venue Sponsor",
+  "logos": [{
+      "name": "University of Cincinnati",
+      "url": "https://www.uc.edu/",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/University_of_Cincinnati_logo.svg"
+  }]
 }, {
-    "title": "General partner",
+    "title": "Event Sponsors",
     "logos": [{
         "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/partners/google.svg"
-    },{
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/partners/gdg-x.svg"
-    },{
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/partners/google.svg"
-    },{
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/partners/gdg-x.svg"
-    },{
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/partners/google.svg"
-    },{
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/partners/gdg-x.svg"
-    },{
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/partners/google.svg"
-    },{
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/partners/gdg-x.svg"
-    },{
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
-        "logoUrl": "../images/partners/google.svg"
-    },{
-        "name": "GDG[x]",
-        "url": "https://github.com/gdg-x",
-        "logoUrl": "../images/partners/gdg-x.svg"
-    },{
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about/",
+        "url": "https://www.google.com/",
         "logoUrl": "../images/partners/google.svg"
     }]
 }]

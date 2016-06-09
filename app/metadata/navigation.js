@@ -5,17 +5,7 @@ module.exports = {
     text: 'Home',
     heroSettings: {
       backgroundColor: '#00BCD4',
-      backgroundImage: '/images/backgrounds/home.png',
-      fontColor: '#FFFFFF',
-      tabBarColor: '#FFFFFF'
-    }
-  }, {
-    route: 'blog',
-    permalink: '/blog',
-    text: 'Blog',
-    heroSettings: {
-      backgroundColor: '#03A9F4',
-      backgroundImage: '/images/backgrounds/blog.png',
+      backgroundImage: '/images/backgrounds/cincinnati.jpeg',
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
     }
