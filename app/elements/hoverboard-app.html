@@ -19,6 +19,7 @@
 <link rel="import" href="pages/home-page.html">
 <link rel="import" href="pages/blog-page.html">
 <link rel="import" href="pages/post-page.html">
+<link rel="import" href="pages/code-of-conduct-page.html">
 
 <dom-module id="hoverboard-app">
 
@@ -55,6 +56,7 @@
                          speaker-id="{{params.id}}"></speakers-page>
           <schedule-page class="Page" data-route="schedule" schedule="{{schedule}}" sessions="{{sessions}}"
                          hero-settings="{{heroSettings}}" session-id="{{params.id}}"></schedule-page>
+          <code-of-conduct-page class="Page" data-route="code-of-conduct" hero-settings="{{heroSettings}}"></code-of-conduct-page>
         </neon-animated-pages>
       </paper-scroll-header-panel>
     </paper-drawer-panel>

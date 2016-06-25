@@ -168,6 +168,20 @@ page('/schedule/:id', ctx => {
   }
 });
 
+page('/code-of-conduct', () => {
+  function setData() {
+    app.route = 'code-of-conduct';
+    app.scrollPageToTop();
+  }
+
+  // Check if element prototype has not been upgraded yet
+  if (!app.upgraded) {
+    once(app, 'upgraded', setData);
+  } else {
+    setData();
+  }
+});
+
 // 404
 page('*', ctx => {
   function setData() {

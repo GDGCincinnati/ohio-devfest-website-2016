@@ -14,7 +14,7 @@ module.exports = {
     permalink: '/schedule',
     text: 'Schedule',
     heroSettings: {
-      backgroundColor: '#607D8B',
+      backgroundColor: '#00BCD4',
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
     }
@@ -23,7 +23,16 @@ module.exports = {
     permalink: '/speakers',
     text: 'Speakers',
     heroSettings: {
-      backgroundColor: '#673AB7',
+      backgroundColor: '#00BCD4',
+      fontColor: '#FFFFFF',
+      tabBarColor: '#FFFFFF'
+    }
+  }, {
+    route: 'code-of-conduct',
+    permalink: '/code-of-conduct',
+    text: 'Code of Conduct',
+    heroSettings: {
+      backgroundColor: '#00BCD4',
       fontColor: '#FFFFFF',
       tabBarColor: '#FFFFFF'
     }

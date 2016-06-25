@@ -1,0 +1,121 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<link rel="import" href="../../bower_components/neon-animation/neon-shared-element-animatable-behavior.html">
+<link rel="import" href="../../bower_components/neon-animation/neon-animation.html">
+
+<link rel="import" href="../blocks/footer-block/footer-block.html">
+<link rel="import" href="../behaviors/utils-behavior.html">
+
+<dom-module id="code-of-conduct-page">
+
+  <template>
+
+    <style include="shared-styles"></style>
+    <style>
+    </style>
+
+    <div class="container page-header" cascaded>
+      <div class="page-title">
+        <h3>Code of Conduct</h3>
+      </div>
+    </div>
+
+    <div class="container">
+      <div cascaded>
+        <p><b>This “Don’t be a jerk” policy is a shortened, more casual version of the longer Code of Conduct policy. <a href="http://meta.wikimedia.org/wiki/Don%27t_be_a_dick">Read full version</a>.</b></p>
+
+        <p>The GDG communities organizing this event are open, respectful, and inclusive communities. That means jerky behavior isn’t allowed at GDG meetings or events. Because we know that it’s not obvious to everyone, here’s a reminder of the types of things we don’t allow: jokes or offensive comments about sex/sexuality/race/religion/nationality/age/disability/body size, showing porn in public, touching people uninvited, or continuing to interact with someone after they’ve asked you to stop. Continuous jerky behavior may result in getting expelled from the meeting, event, or GDG Chapter(s).</p>
+
+        <p>If someone is bothering you, please tell an organizer immediately and they will take care of it. We want to maintain GDG DevFest’s awesomeness.</p>
+
+        <p>Be excellent to each other.</p>
+      </div>
+
+      <footer-block mailchimp-url="{$ mailchimp.url $}" mailchimp-name="{$ mailchimp.name $}" cascaded></footer-block>
+    </div
+
+  </template>
+
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+
+        is: 'code-of-conduct-page',
+
+        behaviors: [
+          Polymer.NeonSharedElementAnimatableBehavior,
+          Polymer.UtilsBehavior
+        ],
+
+        properties: {
+          selected: {
+            type: Boolean,
+            observer: 'updateHeroSettings'
+          },
+          heroSettings: {
+            type: Object,
+            notify: true
+          },
+          _heroSettings: {
+            type: Object,
+            /* jshint ignore:start */
+            value: function () {
+              return {% for nav in navigation %}{% if nav.route == 'code-of-coduct' %}{$ nav.heroSettings | dump $}{% endif %}{% endfor %};
+            }
+            /* jshint ignore:end */
+          },
+
+          animationConfig: {
+            type: Object,
+            value: function () {
+              return {
+                'entry': [{
+                  name: 'fade-in-animation',
+                  animation: 'fade-in-animation',
+                  node: this,
+                  timing: {
+                    delay: 500
+                  }
+                }],
+                'exit': [{
+                  name: 'fade-out-animation',
+                  animation: 'fade-out-animation',
+                  node: this
+                }]
+              };
+            }
+          }
+        },
+
+        updateHeroSettings: function () {
+          this.heroSettings = this.selected ? this._heroSettings : this.heroSettings;
+        },
+
+        _updateCascadedNodes: function () {
+          var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
+          var cascadedArray = Array.prototype.slice.call(cascaded);
+          this.animationConfig.entry.push({
+            name: 'cascaded-animation',
+            animation: 'transform-animation',
+            transformFrom: 'translate3d(0, 100%, 0)',
+            timing: {
+              delay: 500
+            },
+            nodes: cascadedArray
+          });
+          this.animationConfig.exit.push({
+            name: 'cascaded-animation',
+            animation: 'transform-animation',
+            transformTo: 'translate3d(0, 100%, 0)',
+            nodes: cascadedArray
+          });
+        }
+
+      });
+
+    })();
+  </script>
+
+</dom-module>
