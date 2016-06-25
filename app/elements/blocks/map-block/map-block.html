@@ -99,6 +99,12 @@
           @apply(--layout-flex);
         }
       }
+
+      .custom-title {
+        left: 0px;
+        right: 0px;
+        background-color: rgba(0, 188, 212, .8);
+      }
     </style>
 
     <google-map zoom="{$ location.pointer.zoom $}" latitude="{$ location.mapCenter.latitude $}"
@@ -113,7 +119,7 @@
         <paper-card class="card">
           <div class="header paper-card">
             <div class="header-image" style$="background-image: url([[_currentImage]])"></div>
-            <div class="title-text over-image style-scope paper-card">{$ location.title $}</div>
+            <div class="custom-title title-text over-image style-scope paper-card">{$ location.title $}</div>
           </div>
           <div class="paper-card-container">
             <div class="card-content list">
