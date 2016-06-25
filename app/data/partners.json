@@ -12,4 +12,15 @@
         "url": "https://www.google.com/",
         "logoUrl": "../images/partners/google.svg"
     }]
+}, {
+    "title": "Organizers",
+    "logos": [{
+        "name": "GDG Cincinnati",
+        "url": "https://www.meetup.com/cincy-android/",
+        "logoUrl": "../images/partners/gdg_cincinnati.png"
+    },{
+        "name": "GDG Columbus",
+        "url": "https://www.meetup.com/GDG-Columbus/",
+        "logoUrl": "../images/partners/gdg_columbus.png"
+    }]
 }]
