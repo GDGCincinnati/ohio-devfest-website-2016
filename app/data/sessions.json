@@ -1,15 +1,200 @@
 {
-  "1000": {
-    "id": 1000,
-    "title": "Coffee",
-    "description": "Coffee",
-    "language": "English",
-    "complexity": "Beginner",
+  "1": {
+    "id": 1,
+    "title": "How to Train Your Computer to Talk To You",
+    "description": "Every day brings a new story or movie about how the future will be ruled by Artificial Intelligence.  How far are we away from discovering Skynet anyway? This talk will take us on a mini adventure in AI and machine learning with Clojure.  We’ll take a look at something that is pretty easy for humans to do:  telling the difference between a question, statement, or an LOL in some chat text.   What seems deceptively easy, becomes a bit harder when you take away punctuation marks.   We’ll soon find ourselves on the twisty road of natural language processing, machine learning, and Clojure proto chat bots.",
+    "language": "",
+    "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "tags": [
-      "Web"
-    ]
+    "tags": [ "" ]
+  },
+  "2": {
+    "id": 2,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "3": {
+    "id": 3,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "4": {
+    "id": 4,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "5": {
+    "id": 5,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "6": {
+    "id": 6,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "7": {
+    "id": 7,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "8": {
+    "id": 8,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "9": {
+    "id": 9,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "10": {
+    "id": 10,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "11": {
+    "id": 11,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "12": {
+    "id": 12,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "13": {
+    "id": 13,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "14": {
+    "id": 14,
+    "title": "Unannounced",
+    "description": "Unannounced",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "100": {
+    "id": 100,
+    "title": "Keynote",
+    "description": "Opening keynote presentation",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "1000": {
+    "id": 1000,
+    "title": "Registration",
+    "description": "Coffee and light breakfast will be available during registration.",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "1001": {
+    "id": 1001,
+    "title": "Lunch",
+    "description": "Lunch",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
+  },
+  "1005": {
+    "id": 1005,
+    "title": "Final Remarks",
+    "description": "Final Remarks",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "tags": [ "" ]
   }
 }

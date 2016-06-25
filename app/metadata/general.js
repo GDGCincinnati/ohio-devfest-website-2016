@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ohio DevFest 2016',
-  description: 'The biggest Google tech conference in Ohio carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts',
-  keywords: 'event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, cloud',
+  description: 'The biggest Google tech conference in Ohio carefully crafted for you by GDG community! All about Android, Web, VR, Artificial Intelligence, and Cloud from the world experts',
+  keywords: 'event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, cloud, vr, ai',
   charset: 'utf-8',
   lang: 'en',
   // Add to homescreen for Chrome on Android
