@@ -40,80 +40,83 @@
     (function () {
       'use strict';
 
-      Polymer({
+      class CodeOfConductPage {
 
-        is: 'code-of-conduct-page',
-
-        behaviors: [
-          Polymer.NeonSharedElementAnimatableBehavior,
-          Polymer.UtilsBehavior
-        ],
-
-        properties: {
-          selected: {
-            type: Boolean,
-            observer: 'updateHeroSettings'
-          },
-          heroSettings: {
-            type: Object,
-            notify: true
-          },
-          _heroSettings: {
-            type: Object,
-            /* jshint ignore:start */
-            value: function () {
-              return {% for nav in navigation %}{% if nav.route == 'code-of-coduct' %}{$ nav.heroSettings | dump $}{% endif %}{% endfor %};
-            }
-            /* jshint ignore:end */
-          },
-
-          animationConfig: {
-            type: Object,
-            value: function () {
-              return {
-                'entry': [{
-                  name: 'fade-in-animation',
-                  animation: 'fade-in-animation',
-                  node: this,
-                  timing: {
-                    delay: 500
-                  }
-                }],
-                'exit': [{
-                  name: 'fade-out-animation',
-                  animation: 'fade-out-animation',
-                  node: this
-                }]
-              };
-            }
-          }
-        },
-
-        updateHeroSettings: function () {
-          this.heroSettings = this.selected ? this._heroSettings : this.heroSettings;
-        },
-
-        _updateCascadedNodes: function () {
-          var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
-          var cascadedArray = Array.prototype.slice.call(cascaded);
-          this.animationConfig.entry.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformFrom: 'translate3d(0, 100%, 0)',
-            timing: {
-              delay: 500
-            },
-            nodes: cascadedArray
-          });
-          this.animationConfig.exit.push({
-            name: 'cascaded-animation',
-            animation: 'transform-animation',
-            transformTo: 'translate3d(0, 100%, 0)',
-            nodes: cascadedArray
-          });
+        get behaviors() {
+          return [
+            Polymer.NeonSharedElementAnimatableBehavior
+          ];
         }
 
-      });
+        beforeRegister() {
+          this.is = this.constructor.name.replace(/\W+/g, '-')
+            .replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase();
+          this.properties = {
+            selected: {
+              type: Boolean,
+              observer: 'updateHeroSettings'
+            },
+            heroSettings: {
+              type: Object,
+              notify: true
+            },
+            _heroSettings: {
+              type: Object,
+              /* jshint ignore:start */
+              value: function () {
+                return {% for nav in navigation %}{% if nav.route == 'code-of-conduct' %}{$ nav.heroSettings | dump $}{% endif %}{% endfor %};
+              }
+              /* jshint ignore:end */
+            },
+
+            animationConfig: {
+              type: Object,
+              value: function () {
+                var cascaded = Polymer.dom(this.root).querySelectorAll('[cascaded]');
+                var cascadedArray = Array.prototype.slice.call(cascaded);
+                return {
+                  'entry': [{
+                    name: 'cascaded-animation',
+                    animation: 'transform-animation',
+                    transformFrom: 'translate3d(0, 100%, 0)',
+                    nodes: cascadedArray,
+                    timing: {
+                      delay: 500
+                    }
+                  }, {
+                    name: 'fade-in-animation',
+                    animation: 'fade-in-animation',
+                    node: this,
+                    timing: {
+                      delay: 500
+                    }
+                  }],
+                  'exit': [{
+                    name: 'cascaded-animation',
+                    animation: 'transform-animation',
+                    transformTo: 'translate3d(0, 100%, 0)',
+                    nodes: cascadedArray
+                  }, {
+                    name: 'fade-out-animation',
+                    animation: 'fade-out-animation',
+                    node: this
+                  }]
+                };
+              }
+            }
+          };
+          this.observers = [
+            'updateHeroSettings(selected)'
+          ];
+        }
+
+        updateHeroSettings() {
+          this.heroSettings = this.selected ? this._heroSettings : this.heroSettings;
+        }
+
+      }
+
+      Polymer(CodeOfConductPage);
 
     })();
   </script>
