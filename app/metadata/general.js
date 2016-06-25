@@ -32,18 +32,14 @@ module.exports = {
   // Contacts
   social: {
     twitter: {
-      nickname: 'GDGCincinnati',  // FIXME
-      url: 'https://twitter.com/gdgcincinnati'  // FIXME
-    },
-    gplus: {
-      nickname: '117137315626535078562',  // FIXME
-      url: 'https://plus.google.com/117137315626535078562'  // FIXME
+      nickname: 'OhioDevFest',  // FIXME
+      url: 'https://twitter.com/ohiodevfest'
     }
   },
   hashtag: 'ohiodevfest',
   email: 'contact@ohiodevfest.com',
   organizer: {
     name: 'GDG Cincinnati, GDG Columbus',
-    blog: 'https://plus.google.com/117137315626535078562'
+    blog: 'https://twitter.com/ohiodevfest'
   }
 };
