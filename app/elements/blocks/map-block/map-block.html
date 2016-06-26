@@ -109,7 +109,7 @@
 
     <google-map zoom="{$ location.pointer.zoom $}" latitude="{$ location.mapCenter.latitude $}"
                 longitude="{$ location.mapCenter.longitude $}" styles="[[options]]"
-                api-key="AIzaSyDNFE5RChWZGz2uq6CTtLEOtzD4fTSjPoI" disable-zoom disable-default-ui>
+                api-key="{$ mapsApiKey $}" disable-zoom disable-default-ui>
       <google-map-marker latitude="{$ location.pointer.latitude $}"
                          longitude="{$ location.pointer.longitude $}"></google-map-marker>
     </google-map>
