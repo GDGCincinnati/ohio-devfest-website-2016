@@ -2,7 +2,7 @@ var config = require('../../config');
 
 module.exports = {
     baseurl: '',
-    url: 'https://hoverboard.firebaseapp.com/',
+    url: 'https://ohiodevfest.com',
     // Google Analytics code
     trackerCode: 'UA-79888667-1',
     // Google Webmaster Tools verification code
