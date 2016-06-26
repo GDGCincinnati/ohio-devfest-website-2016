@@ -5,7 +5,6 @@
 <link rel="import" href="../../bower_components/paper-spinner/paper-spinner.html">
 <link rel="import" href="../../bower_components/neon-animation/neon-shared-element-animatable-behavior.html">
 <link rel="import" href="../../bower_components/marked-element/marked-element.html">
-<link rel="import" href="../../bower_components/disqus-comments/disqus-comments.html">
 
 <link rel="import" href="../blocks/footer-block/footer-block.html">
 <link rel="import" href="../behaviors/utils-behavior.html">
@@ -163,10 +162,6 @@
             </template>
           </div>
         </div>
-        <div class="container">
-          <disqus-comments id="disqus" shortname="{$ disqusShortName $}" identifier="[[_post.id]]"
-                           title="[[_post.title]]" https></disqus-comments>
-        </div>
       </div>
 
 
@@ -317,7 +312,6 @@
             this.$.animationWrapper.style.display = 'block';
           }, 100);
           this.playAnimation('postLoaded');
-          this.$.disqus.reset();
           this.postId = null;
         },
 
