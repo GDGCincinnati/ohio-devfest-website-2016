@@ -2,9 +2,9 @@
     "date": "2016-11-19",
     "dateReadable": "November 19",
     "tracks": [{
-        "title": "Room 1"
+        "title": "Track 1"
     }, {
-        "title": "Room 2"
+        "title": "Track 2"
     }],
     "timeslots": [{
         "startTime": "07:30",
@@ -16,53 +16,59 @@
         "startTime": "08:30",
         "endTime": "8:45",
         "sessions": [
+            [1001]
+        ]
+    }, {
+        "startTime": "08:45",
+        "endTime": "9:30",
+        "sessions": [
             [100]
         ]
     }, {
-        "startTime": "9:00",
-        "endTime": "9:45",
+        "startTime": "9:45",
+        "endTime": "10:30",
         "sessions": [
-            [1], [2]
+            [1]
         ]
     }, {
-        "startTime": "10:00",
-        "endTime": "10:45",
+        "startTime": "10:45",
+        "endTime": "11:30",
         "sessions": [
-            [3], [4]
+            [2]
         ]
     }, {
-        "startTime": "11:00",
-        "endTime": "11:45",
+        "startTime": "11:30",
+        "endTime": "12:30",
+        "sessions": [
+            [1002]
+        ]
+    }, {
+        "startTime": "12:30",
+        "endTime": "1:15",
         "sessions": [
             [5], [6]
         ]
     }, {
-        "startTime": "12:00",
-        "endTime": "12:45",
-        "sessions": [
-            [1001]
-        ]
-    }, {
-        "startTime": "1:00",
-        "endTime": "1:45",
+        "startTime": "1:30",
+        "endTime": "2:15",
         "sessions": [
             [7], [8]
         ]
     }, {
-        "startTime": "2:00",
-        "endTime": "2:45",
+        "startTime": "2:30",
+        "endTime": "3:15",
         "sessions": [
             [9], [10]
         ]
     }, {
-        "startTime": "3:00",
-        "endTime": "3:45",
+        "startTime": "3:30",
+        "endTime": "4:15",
         "sessions": [
             [11], [12]
         ]
     }, {
-        "startTime": "4:00",
-        "endTime": "4:45",
+        "startTime": "4:30",
+        "endTime": "5:00",
         "sessions": [
             [1005]
         ]

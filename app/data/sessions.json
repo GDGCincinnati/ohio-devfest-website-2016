@@ -1,14 +1,14 @@
 {
   "1": {
     "id": 1,
-    "title": "How to Train Your Computer to Talk To You",
-    "description": "Every day brings a new story or movie about how the future will be ruled by Artificial Intelligence.  How far are we away from discovering Skynet anyway? This talk will take us on a mini adventure in AI and machine learning with Clojure.  We’ll take a look at something that is pretty easy for humans to do:  telling the difference between a question, statement, or an LOL in some chat text.   What seems deceptively easy, becomes a bit harder when you take away punctuation marks.   We’ll soon find ourselves on the twisty road of natural language processing, machine learning, and Clojure proto chat bots.",
+    "title": "Unannounced",
+    "description": "Unannounced",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ 2 ],
+    "speakers": [ ],
     "tags": [ "" ]
   },
   "2": {
@@ -23,40 +23,16 @@
     "speakers": [ ],
     "tags": [ "" ]
   },
-  "3": {
-    "id": 3,
-    "title": "Unannounced",
-    "description": "Unannounced",
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "thumbnail": "",
-    "videoId": "",
-    "speakers": [ ],
-    "tags": [ "" ]
-  },
-  "4": {
-    "id": 4,
-    "title": "Unannounced",
-    "description": "Unannounced",
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "thumbnail": "",
-    "videoId": "",
-    "speakers": [ ],
-    "tags": [ "" ]
-  },
   "5": {
     "id": 5,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "How to Train Your Computer to Talk To You",
+    "description": "Every day brings a new story or movie about how the future will be ruled by Artificial Intelligence.  How far are we away from discovering Skynet anyway? This talk will take us on a mini adventure in AI and machine learning with Clojure.  We’ll take a look at something that is pretty easy for humans to do:  telling the difference between a question, statement, or an LOL in some chat text.   What seems deceptively easy, becomes a bit harder when you take away punctuation marks.   We’ll soon find ourselves on the twisty road of natural language processing, machine learning, and Clojure proto chat bots.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 2 ],
     "tags": [ "" ]
   },
   "6": {
@@ -193,6 +169,18 @@
   },
   "1001": {
     "id": 1001,
+    "title": "Opening Remarks",
+    "description": "Opening Remarks",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "speakers": [ ],
+    "tags": [ "" ]
+  },
+  "1002": {
+    "id": 1002,
     "title": "Lunch",
     "description": "Lunch",
     "language": "",
