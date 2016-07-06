@@ -39,6 +39,26 @@
       }
     ]
   },
+  "3": {
+    "id": 3,
+    "featured": true,
+    "name": "Dan Scott",
+    "title": "Systems Librarian",
+    "company": "Laurentian University",
+    "country": "Canada",
+    "photoUrl": "/images/people/dan_scott.jpg",
+    "bio": "Dan has been a systems librarian at Laurentian University in Sudbury, Ontario, Canada since 2006. He contributes to a number of open source and open standards efforts, such as the Evergreen library system, the schema.org linked data vocabulary, and the Fedora Linux distribution. His research interests include publishing and consuming structured data on the web and integrating open source software and methodology into academic institutions.",
+    "tags": [
+      "Artificial Intelligence"
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/denials/"
+      }
+    ]
+  },
   "10000": {
     "id": 10000,
     "featured": false,
