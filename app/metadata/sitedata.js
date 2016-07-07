@@ -6,7 +6,7 @@ module.exports = {
     counter: 1,
     caption: 'Day'
   }, {
-    counter: 13,
+    counter: 11,
     caption: 'Sessions'
   }, {
     counter: 2,
