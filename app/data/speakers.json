@@ -59,6 +59,20 @@
       }
     ]
   },
+  "4": {
+    "id": 4,
+    "featured": true,
+    "name": "Eric Coleman",
+    "title": "Developer",
+    "company": "Pillar Technology",
+    "country": "USA",
+    "photoUrl": "/images/people/eric_coleman.jpg",
+    "bio": "By day, I work in a DevOps role on a large mobile project. I'm like the guy with the broom in curling - I work with the whole team to try to make the path from code to release as smooth and frictionless as possible. At home, I'm a dad, a gamer, a musician, a cook, a writer, a reader, and a thousand other things at various levels of skill.",
+    "tags": [
+      "Android"
+    ],
+    "socials": [ ]
+  },
   "10000": {
     "id": 10000,
     "featured": false,
