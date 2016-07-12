@@ -32,7 +32,7 @@ module.exports = {
   // Contacts
   social: {
     twitter: {
-      nickname: 'OhioDevFest',  // FIXME
+      nickname: 'OhioDevFest',
       url: 'https://twitter.com/ohiodevfest'
     }
   },

@@ -105,7 +105,7 @@ module.exports = {
   pageSpeed: {
     key: '', // need uncomment in task
     nokey: true,
-    site: 'https://hoverboard.firebaseapp.com',
+    site: 'https://ohiodevfest.com/',
     strategy: 'mobile' // or desktop
   },
   // App theme
