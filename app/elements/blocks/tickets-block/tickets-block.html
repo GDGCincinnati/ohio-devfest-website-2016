@@ -115,16 +115,11 @@
                 {% endfor %}
             </div>
             <span class="details">{$ ticketsBlock.details $}</span>
-            <div class="block">
-                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">Buy a ticket</paper-button>
-            </div>
+            <br />
+            <a class="block-link" href="https://www.eventbrite.com/e/ohio-devfest-tickets-25964520580">
+              <paper-button class="colorful-white" raised>Buy your ticket</paper-button>
+            </a>
         </div>
-        <paper-dialog id="ticketsDialog" entry-animation="scale-up-animation" exit-animation="fade-out-animation" modal>
-            <p>Tickets are not available for purchase yet.  Follow @ohiodevfest on Twitter for updates.</p>
-            <div class="buttons">
-                <paper-button dialog-confirm>Close</paper-button>
-            </div>
-        </paper-dialog>
     </template>
 
     <script>
@@ -138,7 +133,7 @@
                       .replace(/([a-z\d])([A-Z])/g, '$1-$2').toLowerCase();
                 }
 
-                openTicketsDialog() {
+                openTickets() {
                     this.fire('iron-signal', {
                         name: 'track-event',
                         data: {
@@ -148,7 +143,7 @@
                             value: 'buy-a-ticket'
                         }
                     });
-                    this.$.ticketsDialog.open();
+                    window.location.href = 'https://www.eventbrite.com/e/ohio-devfest-tickets-25964520580';
                 }
 
             }

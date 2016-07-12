@@ -34,6 +34,15 @@ paper-button[raised].colorful {
   color: var(--text-primary-color);
 }
 
+paper-button.colorful-white {
+  color: #FFF;
+}
+
+paper-button[raised].colorful-white {
+  background: #FFF;
+  color: var(--default-primary-color);
+}
+
 a,
 .anchor-like,
 .markdown-html a {
