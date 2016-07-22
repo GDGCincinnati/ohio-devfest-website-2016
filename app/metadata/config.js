@@ -1,5 +1,7 @@
 var config = require('../../config');
 
+var now = Date.now();
+
 module.exports = {
     baseurl: '',
     url: 'https://ohiodevfest.com',
@@ -14,5 +16,6 @@ module.exports = {
         url: '//ohiodevfest.us13.list-manage.com/subscribe/post?u=edb11ee7c2cb83eb0e7541e4d&amp;id=a60a395086',
         name: 'b_edb11ee7c2cb83eb0e7541e4d_a60a395086'
     },
-    disqusShortName: 'hoverboard-gdg-x'
+    disqusShortName: 'hoverboard-gdg-x',
+    unique: now
 };
