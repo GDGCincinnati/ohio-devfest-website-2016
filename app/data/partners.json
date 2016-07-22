@@ -3,10 +3,14 @@
   "logos": [{
       "name": "University of Cincinnati",
       "url": "https://www.uc.edu/",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/University_of_Cincinnati_logo.svg"
+      "logoUrl": "../images/partners/University_of_Cincinnati.svg"
+  },{
+      "name": "School of Information Technology",
+      "url": "http://cech.uc.edu/it.html",
+      "logoUrl": "../images/partners/school_of_information_technology.jpg"
   }]
 }, {
-    "title": "Event Sponsors",
+    "title": "Sponsors",
     "logos": [{
         "name": "Google",
         "url": "https://www.google.com/",
@@ -14,6 +18,7 @@
     }]
 }, {
     "title": "Organizers",
+    "vertical": "true",
     "logos": [{
         "name": "GDG Cincinnati",
         "url": "https://www.meetup.com/cincy-android/",
