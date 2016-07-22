@@ -67,11 +67,31 @@
     "company": "Pillar Technology",
     "country": "USA",
     "photoUrl": "/images/people/eric_coleman.jpg",
-    "bio": "By day, I work in a DevOps role on a large mobile project. I'm like the guy with the broom in curling - I work with the whole team to try to make the path from code to release as smooth and frictionless as possible. At home, I'm a dad, a gamer, a musician, a cook, a writer, a reader, and a thousand other things at various levels of skill.",
+    "bio": "By day, Eric works in a DevOps role on a large mobile project.  He's like the guy with the broom in curling - working with the whole team to try to make the path from code to release as smooth and frictionless as possible. At home, he is a dad, a gamer, a musician, a cook, a writer, a reader, and a thousand other things at various levels of skill.",
     "tags": [
       "Android"
     ],
     "socials": [ ]
+  },
+  "5": {
+    "id": 5,
+    "featured": true,
+    "name": "Michael Prentice",
+    "title": "Developer",
+    "company": "DevIntent",
+    "country": "USA",
+    "photoUrl": "/images/people/michael_prentice.jpeg",
+    "bio": "Michael Prentice is a consultant on Angular, Material Design, software architecture, and agile project management. He is the founder of GDG Space Coast and a GDG NA South Region Mentor. He is a team collaborator on Angular Material and GDG-X. He is currently working on his own company, DevIntent.",
+    "tags": [
+      "Web"
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/Splaktar/"
+      }
+    ]
   },
   "10000": {
     "id": 10000,
