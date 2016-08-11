@@ -93,6 +93,26 @@
       }
     ]
   },
+  "6": {
+    "id": 6,
+    "featured": true,
+    "name": "Chris Volpe",
+    "title": "Developer",
+    "company": "Multivarious Games",
+    "country": "USA",
+    "photoUrl": "/images/people/chris_volpe.jpeg",
+    "bio": "Chris is the co-founder of Multivarious Games, the leading game development company in Columbus, OH. He is also the President and Co-Founder of the Ohio Game Developer Association which strives to build a community of game development and turn Columbus into the Silicon Valley of Video Games. He leads a dynamic team of dedicated individuals to create novel gaming experiences and further the game development industry within Ohio. He is also the Director of Operations for Game-U, an educational company where industry professionals teach kids how to develop video games using industry software, STEM learning techniques and soft skill development.  Chris is enthusiastic about technology and innovation, and stays up to date on the latest industry trends in software and devices, in particular in the video game and healthcare spaces. He is driven to discover the best solutions possible to improve the lives of people. He has been involved in a variety of initiatives to promote and push health and wellness forward through innovative project development.  Chris is a passionate, dedicated, and driven man who is enjoys developing and realizing new ideas into tangible, marketable products. He is excited by the opportunities around connecting with people to find novel solutions to bring about change and improve his community.",
+    "tags": [
+      "Video Games"
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/c_volpe/"
+      }
+    ]
+  },
   "10000": {
     "id": 10000,
     "featured": false,
