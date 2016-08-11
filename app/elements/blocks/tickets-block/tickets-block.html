@@ -29,7 +29,7 @@
             }
 
             .price-block-wrapper {
-                @apply(--layout-vertical);
+                /*@apply(--layout-vertical);*/
             }
 
             .price-block {
@@ -103,22 +103,21 @@
 
         <div class="container text-center">
             <h4 class="heading">{$ ticketsBlock.title $}</h4>
-            {% for ticketGroup in ticketsBlock.tickets %}
-              <div class="price-block-wrapper">
-                  {% for ticket in ticketGroup %}
-                  <div class="price-block text-center {% if ticket.soldOut %}sold-out{% endif %}">
-                      <div class="ticket-name">{$ ticket.name $}</div>
-                      <div class="additional-info">{$ ticket.info $}</div>
-                      <span class="price">${$ ticket.price $}</span>
-                      {% if ticket.soldOut %}
-                      <div class="sold-out-text">
-                          <span>Sold Out</span>
-                      </div>
-                      {% endif %}
-                  </div>
-                  {% endfor %}
-              </div>
-            {% endfor %}
+            <div class="price-block-wrapper">
+                {% for ticket in ticketsBlock.tickets %}
+                <div class="price-block text-center {% if ticket.soldOut %}sold-out{% endif %}">
+                    <div class="ticket-name">{$ ticket.name $}</div>
+                    <span class="price">{$ ticket.price $}</span>
+                    <span class="currency">{$ ticket.currency $}</span>
+                    <div class="additional-info">{$ ticket.info $}</div>
+                    {% if ticket.soldOut %}
+                    <div class="sold-out-text">
+                        <span>Sold Out</span>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
             <span class="details">{$ ticketsBlock.details $}</span>
             <br />
             <a class="block-link" href="https://www.eventbrite.com/e/ohio-devfest-tickets-25964520580">
