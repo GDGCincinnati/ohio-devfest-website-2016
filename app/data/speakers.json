@@ -113,6 +113,25 @@
       }
     ]
   },
+  "7": {
+    "id": 7,
+    "featured": true,
+    "name": "Chris Nelson",
+    "title": "Co-Founder and Chief Scientist",
+    "company": "Gaslight",
+    "country": "USA",
+    "photoUrl": "/images/people/chris_nelson.jpeg",
+    "bio": "Chris Nelson is the Co-Founder and Chief Scientist at Gaslight, an agile software development firm in Cincinnati. He heads up the company’s training program, mentors young developers and sets technology direction. What does he love most about his job? Sharing what he’s learned from nearly 20 years developing software across a wide range of industries. Chris has given workshops across the country in AngularJS and Ember.js, and spent time teaching at Dev Bootcamp in Chicago. He’s spoken at RailsConf, RubyConf, BackboneConf, JavaOne, HTML5 Developer Conference, No Fluff Just Stuff, CodeMash and many others.",
+    "tags": [
+    ],
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/superchris/"
+      }
+    ]
+  },
   "10000": {
     "id": 10000,
     "featured": false,
