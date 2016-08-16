@@ -41,7 +41,6 @@
       .image-overlay {
         @apply(--layout-fit);
         @apply(--opacity-animation);
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.7) 140%);
         height: 100%;
       }
 
@@ -119,6 +118,8 @@
 
     <iron-image class="placeholder-color toolbar-image" src="[[backgroundImage]]" sizing="cover" preload
                 fade></iron-image>
+    <iron-image class="toolbar-image" src="[[foregroundImage]]" sizing="contain" preload
+                fade></iron-image>
     <div class="image-overlay" show$={{backgroundImage}}></div>
     <div class="container">
       <paper-toolbar class="tall">
@@ -169,6 +170,7 @@
             },
             backgroundColor: String,
             backgroundImage: String,
+            foregroundImage: String,
             fontColor: String,
             tabBarColor: String,
             video: {
