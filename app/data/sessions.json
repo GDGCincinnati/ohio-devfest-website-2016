@@ -1,28 +1,4 @@
 {
-  "1": {
-    "id": 1,
-    "title": "Unannounced",
-    "description": "Unannounced",
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "thumbnail": "",
-    "videoId": "",
-    "speakers": [ ],
-    "tags": [ "" ]
-  },
-  "2": {
-    "id": 2,
-    "title": "Unannounced",
-    "description": "Unannounced",
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "thumbnail": "",
-    "videoId": "",
-    "speakers": [ ],
-    "tags": [ "" ]
-  },
   "5": {
     "id": 5,
     "title": "How to Train Your Computer to Talk To You",
@@ -145,8 +121,32 @@
   },
   "100": {
     "id": 100,
-    "title": "Keynote",
-    "description": "Opening keynote presentation",
+    "title": "Opening presentation #1",
+    "description": "Opening presentation",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "speakers": [ ],
+    "tags": [ "" ]
+  },
+  "101": {
+    "id": 101,
+    "title": "Opening presentation #2",
+    "description": "Opening presentation",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "speakers": [ ],
+    "tags": [ "" ]
+  },
+  "102": {
+    "id": 102,
+    "title": "Opening presentation #3",
+    "description": "Opening presentation",
     "language": "",
     "complexity": "",
     "presentation": "",

@@ -10,7 +10,20 @@
       "logoUrl": "../images/partners/school_of_information_technology.jpg"
   }]
 }, {
-    "title": "Sponsors",
+    "title": "Gold Sponsors",
+    "logos": []
+}, {
+    "title": "Silver Sponsors",
+    "logos": []
+}, {
+    "title": "Bronze Sponsors",
+    "logos": [{
+        "name": "Cardinal Solutions Group",
+        "url": "http://www.cardinalsolutions.com/",
+        "logoUrl": "../images/partners/cardinal_solutions_group.png"
+    }]
+}, {
+    "title": "Event Sponsors",
     "logos": [{
         "name": "Google",
         "url": "https://www.google.com/",

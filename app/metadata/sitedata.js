@@ -6,10 +6,10 @@ module.exports = {
     counter: 1,
     caption: 'Day'
   }, {
-    counter: 11,
+    counter: 12,
     caption: 'Sessions'
   }, {
-    counter: 2,
+    counter: 3,
     caption: 'Parallel tracks'
   }],
   ticketsBlock: {

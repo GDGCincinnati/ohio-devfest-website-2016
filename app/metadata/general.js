@@ -13,7 +13,7 @@ module.exports = {
   dates: 'November 19, 2016',
   location: {
     title: 'Tangeman University Center',
-    description: 'Tangeman University Center (TUC) is the campus student center located in the heart of MainStreet on the University of Cincinnati campus.',
+    description: 'Tangeman University Center (TUC) is the campus student center located in the heart of MainStreet on the University of Cincinnati.',
     short: 'Cincinnati, Ohio 45221',
     address: '2766 UC MainStreet',
     link: 'https://www.uc.edu/eventservices/venues/tangeman.html',
