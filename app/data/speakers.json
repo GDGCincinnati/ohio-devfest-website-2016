@@ -132,8 +132,63 @@
       }
     ]
   },
+  "8": {
+    "id": 8,
+    "featured": true,
+    "name": "Martin Omander",
+    "title": "Program Manager",
+    "company": "Google",
+    "country": "USA",
+    "photoUrl": "/images/people/martin_omander.jpg",
+    "bio": "Martin Omander works for Google in Mountain View, California. His job is to support awesome developer communities, like the Google Developer Group in Ohio. On his spare time he manages to sneak in some programming, usually writing HTML5 apps running on top of Firebase. Before Google, Martin worked at string of startups in Silicon Valley as a software engineer.",
+    "tags": [
+    ],
+    "socials": [
+      {
+        "name": "Google+",
+        "icon": "gplus",
+        "link": "https://plus.google.com/+MartinOmander"
+      }
+    ]
+  },
   "10000": {
     "id": 10000,
+    "featured": false,
+    "name": "Coming Soon",
+    "title": "...",
+    "company": "...",
+    "country": "USA",
+    "photoUrl": "/images/people/account.png",
+    "bio": "Additional speakers will be announced soon!",
+    "tags": [ ],
+    "socials": [ ]
+  },
+  "10001": {
+    "id": 10001,
+    "featured": false,
+    "name": "Coming Soon",
+    "title": "...",
+    "company": "...",
+    "country": "USA",
+    "photoUrl": "/images/people/account.png",
+    "bio": "Additional speakers will be announced soon!",
+    "tags": [ ],
+    "socials": [ ]
+  },
+  "10002": {
+    "id": 10002,
+    "featured": false,
+    "name": "Coming Soon",
+    "title": "...",
+    "company": "...",
+    "country": "USA",
+    "photoUrl": "/images/people/account.png",
+    "bio": "Additional speakers will be announced soon!",
+    "tags": [ ],
+    "socials": [ ]
+  },
+  "10003": {
+    "id": 10003,
     "featured": false,
     "name": "Coming Soon",
     "title": "...",
