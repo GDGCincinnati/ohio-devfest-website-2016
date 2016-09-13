@@ -11,7 +11,11 @@
   }]
 }, {
     "title": "Gold Sponsors",
-    "logos": []
+    "logos": [{
+        "name": "The Kroger Co.",
+        "url": "https://www.kroger.com/",
+        "logoUrl": "../images/partners/kroger.png"
+    }]
 }, {
     "title": "Silver Sponsors",
     "logos": []
@@ -25,6 +29,10 @@
         "name": "dotloop",
         "url": "https://www.dotloop.com/",
         "logoUrl": "../images/partners/dotloop.png"
+    },{
+        "name": "London Computer Systems",
+        "url": "https://www.lcs.com/",
+        "logoUrl": "../images/partners/lcs.png"
     }]
 }, {
     "title": "Event Sponsors",
