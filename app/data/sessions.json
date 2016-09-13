@@ -13,14 +13,14 @@
   },
   "6": {
     "id": 6,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Building Android Apps with Firebase",
+    "description": "Building an Android application is hard. Building an Android application with a backend is even harder. Firebase is a tool that helps alleviate that. In this talk, we will talk about some of the tools offered by Firebase that can help make you build a fully functional android app, complete with a backend, push notifications, analytics and more.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 9 ],
     "tags": [ "" ]
   },
   "7": {
