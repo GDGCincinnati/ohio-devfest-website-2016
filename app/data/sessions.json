@@ -25,14 +25,14 @@
   },
   "7": {
     "id": 7,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "How GraphQL makes building web apps better",
+    "description": "GraphQL is an open specification created by Facebook for exchanging data between a client and server. It turns REST on its head by letting the client ask for exactly the data it needs rather than the server sending whatever it thinks is best. In this talk, attendees will learn about what GraphQL is and the basic syntax. We’ll see how it works on the client and the server, and how it can be used to solve some of the most frustrating problems in modern web app development. We’ll also see how powerful features like schema introspection allow you to do things in web development we’ve never been able to do before. Expect to come away with a good understanding of where and how to harness GraphQL on your next project.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 7 ],
     "tags": [ "" ]
   },
   "8": {
@@ -49,26 +49,26 @@
   },
   "9": {
     "id": 9,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Continuous Integration with Android",
+    "description": "This talk will cover a complete Continuous Integration and Deployment setup for Android. We'll start with a high level overview of the entire system and then go deeper into the individual components. We'll talk about best practices and why we do CI. You'll leave this talk with enough knowledge to set up CI for your Android projects, and knowledge of why it's worth doing.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 4 ],
     "tags": [ "" ]
   },
   "10": {
     "id": 10,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Build your MVP with Angular 2 + Firebase + Polymer",
+    "description": "If you need to build a MVP for an idea or startup, then you need to have tools that work right now and are ultra-productive. Angular 2 provides a great starting point for this, but you still need to handle Authentication, database, back-end servers, and quality UI components.  AngularFire2 makes the Authentication easy. It provides a real-time, managed database. This means no servers to setup!  Angular2-Polymer gives you easy access to the huge library of standards-based Polymer Web Components. This includes Material Design components, Flexbox Layouts, data grids, and Google components like Google Maps.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 5 ],
     "tags": [ "" ]
   },
   "11": {
