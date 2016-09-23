@@ -37,14 +37,14 @@
   },
   "8": {
     "id": 8,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Topic: Schema.org / Semantic Web Related",
+    "description": "Coming Soon",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 3 ],
     "tags": [ "" ]
   },
   "9": {
@@ -73,14 +73,14 @@
   },
   "11": {
     "id": 11,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Topic: AR/VR Related",
+    "description": "Coming Soon",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 11 ],
     "tags": [ "" ]
   },
   "12": {
@@ -104,7 +104,7 @@
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 6 ],
     "tags": [ "" ]
   },
   "14": {
@@ -121,38 +121,38 @@
   },
   "100": {
     "id": 100,
-    "title": "Opening presentation #1",
-    "description": "Opening presentation",
+    "title": "Topic: Android Related",
+    "description": "Coming Soon",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 1 ],
     "tags": [ "" ]
   },
   "101": {
     "id": 101,
-    "title": "Opening presentation #2",
-    "description": "Opening presentation",
+    "title": "Topic: Virtual Reality Related",
+    "description": "Coming Soon",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 10 ],
     "tags": [ "" ]
   },
   "102": {
     "id": 102,
-    "title": "Opening presentation #3",
-    "description": "Opening presentation",
+    "title": "Topic: Firebase Related",
+    "description": "Coming Soon",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 8 ],
     "tags": [ "" ]
   },
   "1000": {

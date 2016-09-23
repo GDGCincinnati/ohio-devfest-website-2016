@@ -169,27 +169,27 @@
       }
     ]
   },
-  "10001": {
-    "id": 10001,
+  "10": {
+    "id": 10,
     "featured": false,
-    "name": "Coming Soon",
-    "title": "...",
-    "company": "...",
+    "name": "Shanee Nishry",
+    "title": "Software Engineer",
+    "company": "Google",
     "country": "USA",
-    "photoUrl": "/images/people/account.png",
-    "bio": "Additional speakers will be announced soon!",
+    "photoUrl": "/images/people/shanee_nishry.jpg",
+    "bio": "Shanee Nishry is a Software Engineer working on virtual reality experiences as part of the Google VR team. She's been involved with game development from the start of her career and with virtual reality ever since the first public Oculus Rift development kit came out in 2013. Today she is excited to work on new virtual reality experiences and share some of the best practices with other developers.",
     "tags": [ ],
     "socials": [ ]
   },
-  "10002": {
-    "id": 10002,
+  "11": {
+    "id": 11,
     "featured": false,
-    "name": "Coming Soon",
-    "title": "...",
-    "company": "...",
+    "name": "Jason Sankey",
+    "title": "",
+    "company": "",
     "country": "USA",
-    "photoUrl": "/images/people/account.png",
-    "bio": "Additional speakers will be announced soon!",
+    "photoUrl": "/images/people/jason_sankey.jpg",
+    "bio": "Jason started out as an artist and made his way to development in order to create richer and more interactive experiences. He has over 10 years of experience building creative marketing apps and interactive tradeshow experiences using a wide range of technology. Recently Jason has been heavily focused on Virtual and Augmented Reality applications.",
     "tags": [ ],
     "socials": [ ]
   },
