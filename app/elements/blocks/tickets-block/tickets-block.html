@@ -42,6 +42,10 @@
                 margin-top: 30px;
             }
 
+            .ended {
+                opacity: .5;
+            }
+
             .sold-out > *:not(.sold-out-text) {
                 opacity: .3;
             }
@@ -105,7 +109,7 @@
             <h4 class="heading">{$ ticketsBlock.title $}</h4>
             <div class="price-block-wrapper">
                 {% for ticket in ticketsBlock.tickets %}
-                <div class="price-block text-center {% if ticket.soldOut %}sold-out{% endif %}">
+                <div class="price-block text-center {% if ticket.soldOut %}sold-out{% endif %} {% if ticket.ended %}ended{% endif %}">
                     <div class="ticket-name">{$ ticket.name $}</div>
                     <span class="price">{$ ticket.price $}</span>
                     <span class="currency">{$ ticket.currency $}</span>
