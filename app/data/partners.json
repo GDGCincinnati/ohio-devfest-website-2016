@@ -3,43 +3,51 @@
   "logos": [{
       "name": "University of Cincinnati",
       "url": "https://www.uc.edu/",
-      "logoUrl": "../images/partners/University_of_Cincinnati.svg"
+      "logoUrl": "../images/partners/University_of_Cincinnati.svg",
+      "size": "logo-img"
   },{
       "name": "School of Information Technology",
       "url": "http://cech.uc.edu/it.html",
-      "logoUrl": "../images/partners/school_of_information_technology.jpg"
+      "logoUrl": "../images/partners/school_of_information_technology.jpg",
+      "size": "logo-img"
   }]
 }, {
     "title": "Gold Sponsors",
     "logos": [{
         "name": "The Kroger Co.",
         "url": "https://www.kroger.com/",
-        "logoUrl": "../images/partners/kroger.png"
+        "logoUrl": "../images/partners/kroger.png",
+        "size": "logo-img-large"
     }]
 }, {
     "title": "Silver Sponsors",
     "logos": []
 }, {
     "title": "Bronze Sponsors",
+    "size": "logo-img",
     "logos": [{
         "name": "Cardinal Solutions Group",
         "url": "http://www.cardinalsolutions.com/",
-        "logoUrl": "../images/partners/cardinal_solutions_group.png"
+        "logoUrl": "../images/partners/cardinal_solutions_group.png",
+        "size": "logo-img"
     },{
         "name": "dotloop",
         "url": "https://www.dotloop.com/",
-        "logoUrl": "../images/partners/dotloop.png"
+        "logoUrl": "../images/partners/dotloop.png",
+        "size": "logo-img"
     },{
         "name": "London Computer Systems",
         "url": "https://www.lcs.com/",
-        "logoUrl": "../images/partners/lcs.png"
+        "logoUrl": "../images/partners/lcs.png",
+        "size": "logo-img"
     }]
 }, {
     "title": "Event Sponsors",
     "logos": [{
         "name": "Google",
         "url": "https://www.google.com/",
-        "logoUrl": "../images/partners/google.svg"
+        "logoUrl": "../images/partners/google.svg",
+        "size": "logo-img"
     }]
 }, {
     "title": "Organizers",
@@ -47,10 +55,12 @@
     "logos": [{
         "name": "GDG Cincinnati",
         "url": "https://www.meetup.com/cincy-android/",
-        "logoUrl": "../images/partners/gdg_cincinnati.png"
+        "logoUrl": "../images/partners/gdg_cincinnati.png",
+        "size": "logo-img"
     },{
         "name": "GDG Columbus",
         "url": "https://www.meetup.com/GDG-Columbus/",
-        "logoUrl": "../images/partners/gdg_columbus.png"
+        "logoUrl": "../images/partners/gdg_columbus.png",
+        "size": "logo-img"
     }]
 }]
