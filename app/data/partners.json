@@ -45,6 +45,11 @@
         "url": "http://www.krush.com/",
         "logoUrl": "../images/partners/krush.png",
         "size": "logo-img"
+    },{
+        "name": "Roadtripers",
+        "url": "https://roadtrippers.com/",
+        "logoUrl": "../images/partners/roadtrippers.png",
+        "size": "logo-img"
     }]
 }, {
     "title": "Event Sponsors",
