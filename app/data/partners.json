@@ -40,6 +40,11 @@
         "url": "https://www.lcs.com/",
         "logoUrl": "../images/partners/lcs.png",
         "size": "logo-img"
+    },{
+        "name": "Krush",
+        "url": "http://www.krush.com/",
+        "logoUrl": "../images/partners/krush.png",
+        "size": "logo-img"
     }]
 }, {
     "title": "Event Sponsors",
