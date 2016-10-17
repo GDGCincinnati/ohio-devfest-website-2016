@@ -37,8 +37,8 @@
   },
   "8": {
     "id": 8,
-    "title": "Topic: Schema.org / Semantic Web Related",
-    "description": "Coming Soon",
+    "title": "Strands of the modern semantic web: schema.org, Wikidata, and the Knowledge Graph",
+    "description": "schema.org enables website makers to publish data that can be understood by machines as well as humans. Wikidata has 25 million data items openly available for reuse. The structured data in Google's Knowledge Graph, which builds on Wikidata and schema.org data, is available to you through the Search API. Learn how the modern semantic web is evolving, and how you can take advantage of it.",
     "language": "",
     "complexity": "",
     "presentation": "",
