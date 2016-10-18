@@ -85,14 +85,14 @@
   },
   "12": {
     "id": 12,
-    "title": "Unannounced",
-    "description": "Unannounced",
+    "title": "Android Databases with Realm",
+    "description": "Whether you’re an experienced Android developer, or you’re just getting started, you will need to think about storing data on the device. Android offers several options including relational data storage on a SQLite Database, but the APIs and examples provided by Google look like the state-of-the-art JDBC programming you did back in 1995! In this talk, you’ll learn how to use RealmDB, an elegant Object Relational database alternative to SQLite, to make database development on Android fun, easy, and testable.",
     "language": "",
     "complexity": "",
     "presentation": "",
     "thumbnail": "",
     "videoId": "",
-    "speakers": [ ],
+    "speakers": [ 12 ],
     "tags": [ "" ]
   },
   "13": {

@@ -171,7 +171,7 @@
   },
   "10": {
     "id": 10,
-    "featured": false,
+    "featured": true,
     "name": "Shanee Nishry",
     "title": "Software Engineer",
     "company": "Google",
@@ -183,7 +183,7 @@
   },
   "11": {
     "id": 11,
-    "featured": false,
+    "featured": true,
     "name": "Jason Sankey",
     "title": "",
     "company": "",
@@ -193,15 +193,15 @@
     "tags": [ ],
     "socials": [ ]
   },
-  "10003": {
-    "id": 10003,
-    "featured": false,
-    "name": "Coming Soon",
-    "title": "...",
-    "company": "...",
+  "12": {
+    "id": 12,
+    "featured": true,
+    "name": "Eric Maxwell",
+    "title": "Principal Engineer",
+    "company": "Credible Software",
     "country": "USA",
-    "photoUrl": "/images/people/account.png",
-    "bio": "Additional speakers will be announced soon!",
+    "photoUrl": "/images/people/eric_maxwell.jpg",
+    "bio": "Eric is a Principal Engineer at Credible Software. He has spent 12 years architecting and developing software for various companies across different industries, including healthcare, insurance, library science, and private aviation. His current focus is training, mentoring, and mobile development. He has developed and taught courses on Java, Android and iOS. He’s also the author of the United Way of Delaware County Donor Discount app. When he’s not working, he enjoys spending time with family, and watching/performing improv comedy. He is one of the founding members of Hashtag Comedy in Columbus and a cast member from 2012-2014.",
     "tags": [ ],
     "socials": [ ]
   }
