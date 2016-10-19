@@ -133,8 +133,8 @@
   },
   "101": {
     "id": 101,
-    "title": "Topic: Virtual Reality Related",
-    "description": "Coming Soon",
+    "title": "Lessons learned while working on Daydream",
+    "description": "Virtual reality is new and exciting, but working on virtual reality apps can be difficult. For engineers, there is the challenge to get pixels on the screen in stereoscopic rendering configuration while running at 60 frames per second. This becomes more challenging when working on mobile hardware where thermals are involved and the CPU/GPU get throttled.  Additionally, VR is different from conventional apps. Let's add interactive interaction, controllers, and gaze input - how do we make that intuitive and fun to use? How do we keep our performance requirements? And does anyone really know the right way to do things in VR?  Join us and find out about the challenges we faced at Google developing Daydream, a virtual reality platform, how we made our first VR apps like Street View VR, and maybe some insight to where we are taking things next, at least on the engineering level.",
     "language": "",
     "complexity": "",
     "presentation": "",
