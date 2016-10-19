@@ -145,8 +145,8 @@
   },
   "102": {
     "id": 102,
-    "title": "Topic: Firebase Related",
-    "description": "Coming Soon",
+    "title": "Javascript + Firebase game programming -- and how I become a better Dad",
+    "description": "The Firebase Database lets you synchronize data between clients in real time, which is perfect for building multi-player games. In this talk I will describe a collaborative web-based sci-fi game I built using Firebase, what I learned along the way and how it made me a better dad.",
     "language": "",
     "complexity": "",
     "presentation": "",
