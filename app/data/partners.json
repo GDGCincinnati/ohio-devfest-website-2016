@@ -12,7 +12,7 @@
       "size": "logo-img"
   }]
 }, {
-    "title": "Gold Sponsors",
+    "title": "Gold Sponsor",
     "logos": [{
         "name": "The Kroger Co.",
         "url": "https://www.kroger.com/LiveKT",
@@ -20,8 +20,13 @@
         "size": "logo-img-large"
     }]
 }, {
-    "title": "Silver Sponsors",
-    "logos": []
+    "title": "Silver Sponsor",
+    "logos": [{
+        "name": "MedData",
+        "url": "http://www.meddata.com/",
+        "logoUrl": "../images/partners/meddata.png",
+        "size": "logo-img-large"
+    }]
 }, {
     "title": "Bronze Sponsors",
     "size": "logo-img",
@@ -57,7 +62,7 @@
         "size": "logo-img"
     }]
 }, {
-    "title": "Event Sponsors",
+    "title": "Event Sponsor",
     "logos": [{
         "name": "Google",
         "url": "https://www.google.com/",
