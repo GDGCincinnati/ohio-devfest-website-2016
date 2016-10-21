@@ -50,6 +50,11 @@
         "url": "https://roadtrippers.com/",
         "logoUrl": "../images/partners/roadtrippers.png",
         "size": "logo-img"
+    },{
+        "name": "Callibrity",
+        "url": "http://www.callibrity.com/",
+        "logoUrl": "../images/partners/callibrity.png",
+        "size": "logo-img"
     }]
 }, {
     "title": "Event Sponsors",
