@@ -20,14 +20,6 @@
         "size": "logo-img-large"
     }]
 }, {
-    "title": "Silver Sponsor",
-    "logos": [{
-        "name": "MedData",
-        "url": "http://www.meddata.com/",
-        "logoUrl": "../images/partners/meddata.png",
-        "size": "logo-img-large"
-    }]
-}, {
     "title": "Bronze Sponsors",
     "size": "logo-img",
     "logos": [{
@@ -60,6 +52,11 @@
         "url": "http://www.callibrity.com/",
         "logoUrl": "../images/partners/callibrity.png",
         "size": "logo-img"
+    },{
+        "name": "MedData",
+        "url": "http://www.meddata.com/",
+        "logoUrl": "../images/partners/meddata.png",
+        "size": "logo-img-large"
     }]
 }, {
     "title": "Event Sponsor",
