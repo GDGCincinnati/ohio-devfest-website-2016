@@ -73,8 +73,8 @@
   },
   "11": {
     "id": 11,
-    "title": "Topic: AR/VR Related",
-    "description": "Coming Soon",
+    "title": "Docker for Developers : Effectively Leveraging Docker During Development",
+    "description": "Docker is a virtualization technology that makes it easy to package and deploy stacks of application components. However, Docker isn't just a tool for packaging software after it's been developed. Docker can be a powerful tool to accelerate your development process. It can help you quickly onboard new developers, try out new technologies, and diagnosis issues across a range of deployment topologies. Docker for Developers will cover workflows and configurations you can use with Docker to accelerate your development process.",
     "language": "",
     "complexity": "",
     "presentation": "",

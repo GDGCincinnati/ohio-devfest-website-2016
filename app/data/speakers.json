@@ -194,14 +194,24 @@
   "11": {
     "id": 11,
     "featured": true,
-    "name": "Jason Sankey",
-    "title": "",
-    "company": "",
+    "name": "Michael Pinnegar",
+    "title": "Senior Software Development Lead",
+    "company": "Chemical Abstracts Service",
     "country": "USA",
-    "photoUrl": "/images/people/jason_sankey.jpg",
-    "bio": "Jason started out as an artist and made his way to development in order to create richer and more interactive experiences. He has over 10 years of experience building creative marketing apps and interactive tradeshow experiences using a wide range of technology. Recently Jason has been heavily focused on Virtual and Augmented Reality applications.",
+    "photoUrl": "/images/people/michael_pinnegar.png",
+    "bio": "Michael Pinnegar is a lead developer at Chemical Abstracts Service (CAS) working on Scifinder-n (we help cure cancer!). He is primarily a Java developer with a heavy focus on web application development as well as deep knowledge of Javascript, HTML, CSS, and AngularJS. He loves statically typed code, frictionless development environments, and pragmatic approach to software development. At CAS he serves as a technical consultant for other team members, a development coach establishing best practices, and a problem ninja who resolves tricky technical issues. He loves PC video games, board games, and used to play Magic: The Gathering professionally. Say hello, he is super friendly!",
     "tags": [ ],
-    "socials": [ ]
+    "socials": [
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "link": "https://twitter.com/jazzepi/"
+      },{
+        "name": "web",
+        "icon": "link",
+        "link": "https://professional-practical-programmer.com/"
+      }
+     ]
   },
   "12": {
     "id": 12,
