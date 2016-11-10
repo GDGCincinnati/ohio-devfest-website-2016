@@ -97,8 +97,8 @@
   },
   "13": {
     "id": 13,
-    "title": "Coming Soon",
-    "description": "Coming Soon",
+    "title": "Growing Up Gaming",
+    "description": "Chris will dive into the local gaming industry in Ohio, and what opportunities developers have to take advantage of this growing industry. Building off of his recent TEDx Columbus presentation, Chris will talk about the history of the gaming industry, and how the democratization of game development has open up a window for Ohio to lead as a game development ecosystem, both in the US and globally. Gamers and enthusiastic developers welcome!",
     "language": "",
     "complexity": "",
     "presentation": "",
@@ -121,8 +121,8 @@
   },
   "100": {
     "id": 100,
-    "title": "Topic: Android Related",
-    "description": "Coming Soon",
+    "title": "Making Retrofit Work For You",
+    "description": "Retrofit's recently-released version 2 is the easiest way to do HTTP in your applications. Once set up, Retrofit is designed to make declaring endpoints as simple as a method on an interface with annotations. Behind that simplicity, though, there is a lot of power and knowing how to use and configure it can make even the most problematic APIs easy to use.</br></br>This talk will focus on configuring three parts of Retrofit:<ul><li>Endpoint declarations on interfaces which define how requests are created and sent and how their responses are read and parsed.</li><li>Serialization customization that goes beyond just choosing between JSON or Protocol Buffers.</li><li>Execution mechanisms which enable synchronous or asynchronous requests, integration with third-party libraries, and custom error handling.</li></ul>You will not need prior Retrofit experience, although the focus will specifically be on configuring and customizing its behavior.",
     "language": "",
     "complexity": "",
     "presentation": "",
