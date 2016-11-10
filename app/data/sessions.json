@@ -107,18 +107,6 @@
     "speakers": [ 6 ],
     "tags": [ "" ]
   },
-  "14": {
-    "id": 14,
-    "title": "Unannounced",
-    "description": "Unannounced",
-    "language": "",
-    "complexity": "",
-    "presentation": "",
-    "thumbnail": "",
-    "videoId": "",
-    "speakers": [ ],
-    "tags": [ "" ]
-  },
   "100": {
     "id": 100,
     "title": "Making Retrofit Work For You",
@@ -193,8 +181,8 @@
   },
   "1005": {
     "id": 1005,
-    "title": "Closing Remarks",
-    "description": "Closing Remarks",
+    "title": "Fireside Chat",
+    "description": "Open question and answer session with several of our speakers.",
     "language": "",
     "complexity": "",
     "presentation": "",
