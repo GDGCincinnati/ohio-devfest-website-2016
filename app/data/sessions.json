@@ -190,5 +190,17 @@
     "videoId": "",
     "speakers": [ ],
     "tags": [ "" ]
+  },
+  "1006": {
+    "id": 1006,
+    "title": "Afterparty",
+    "description": "Join as at Rhinegeist to celebrate Ohio DevFest with fellow attendees.",
+    "language": "",
+    "complexity": "",
+    "presentation": "",
+    "thumbnail": "",
+    "videoId": "",
+    "speakers": [ ],
+    "tags": [ "" ]
   }
 }
