@@ -32,13 +32,13 @@ module.exports = {
         price: 65,
         currency: 'USD',
         info: '',
-        ended: false
+        ended: true
       },{
         name: 'Student',
         price: 35,
         currency: 'USD',
         info: '',
-        ended: false
+        ended: true
       }
     ],
     details: 'Tickets grant access to all conference sessions, coffee breaks, and lunch. Accommodation is NOT included in the ticket price.'
